@@ -39,6 +39,26 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  padding: 3rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  color: #fff;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  background: no-repeat;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -139,9 +159,41 @@ body {
           transform: rotate(180deg);
 }
 
+.home {
+  margin-top: 7rem;
+  background: url(../images/home-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .content {
+  max-width: 70rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home .content img {
+  width: 100%;
+}
+
+.home .content h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 2.7rem;
+  color: #aaa;
+  padding: 2rem 0;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 3rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 
@@ -182,6 +234,12 @@ body {
   }
   .header .navbar .space {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .content h3 {
+    font-size: 3.5rem;
   }
 }
 
