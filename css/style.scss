@@ -438,6 +438,15 @@ section{
         }
     }
 }
+.footer{
+    text-align: center;
+    background: linear-gradient(transparent, $black);
+    .links{
+        a{
+            margin: 1rem;
+        }
+    }
+}
 
 //  media queares
 
