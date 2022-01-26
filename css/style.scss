@@ -241,6 +241,47 @@ section{
         }
     }
 }
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    .image{
+        flex: 1 1 40rem;
+        img{
+            width: 100%;
+        }
+    }
+    .content{
+        flex: 1 1 40rem;
+        .title{
+            font-size: 4rem;
+            color: $white;
+        }
+        p{
+            font-size: 3rem;
+            color: $light-color;
+            padding: 2rem 0;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            h3{
+                flex: 1 1 16rem;
+                font-size: 2rem;
+                color: $white;
+                text-transform: uppercase;
+                i{
+                    padding-right: 1rem;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
 
 //  media queares
 
